@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "playwrigttutorial"
+version = "0.1.0"
+description = "Public Playwright Python portfolio tests for SauceDemo."
+authors = ["Laura Utar"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+playwright = "^1.49.0"
+pytest = "^8.3.0"
+pytest-playwright = "^0.6.0"
+pytest-html = "^4.1.1"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

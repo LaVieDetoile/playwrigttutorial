@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment files
+.env
+.env.*
+!.env.sample
+
+# Playwright and test artifacts
+playwright-report/
+test-results/
+screenshots/
+videos/
+traces/
+reports/
+
+# OS and editor files
+.DS_Store
+.idea/workspace.xml
+.idea/shelf/
