@@ -151,7 +151,7 @@ GitHub Actions runs on `push` and `pull_request`. The workflow:
 6. Runs the Playwright test suite.
 7. Uploads the HTML report and failure artifacts when appropriate.
 
-## What Interviewers Should Notice
+## Framework Practices
 
 - Clean Page Object Model design
 - Feature-based test organization
