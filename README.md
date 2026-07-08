@@ -1,5 +1,7 @@
 # Playwright Tutorial Portfolio
 
+[![Playwright UI Tests](https://github.com/LaVieDetoile/playwrigttutorial/actions/workflows/playwright-tests.yml/badge.svg)](https://github.com/LaVieDetoile/playwrigttutorial/actions/workflows/playwright-tests.yml)
+
 A public Playwright Python automation project that demonstrates professional end-to-end UI testing practices against the Playwright TodoMVC demo app.
 
 ## Project Purpose
